@@ -1,9 +1,11 @@
 package org.velezreyes.quiz.question6;
 
-public class VendingMachineImpl {
+public class VendingMachineImpl implements VendingMachine {
 
   public static VendingMachine getInstance() {
-    // Fix me!
-    return null;
+    
+    return new VendingMachineImpl();
+
+
   }
 }
